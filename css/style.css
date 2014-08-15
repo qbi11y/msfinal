@@ -14,3 +14,10 @@ input {
 /* --- CUSTOM ELEMENTS ---*/
 .button {
   background-color: blue; }
+
+.myDiv {
+  color: black;
+  background-color: red;
+  border: 5px dotted #f00; }
+
+/*# sourceMappingURL=style.css.map */

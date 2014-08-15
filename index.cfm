@@ -9,20 +9,20 @@
     Logo
   </div>
   <!-- Sign in form -->
-  <div class="row">
-    <div><input type="text" placeholder="Email"></div>
-    <div><input type="text" placeholder="Passphrase"></div>
-    <div><div class="button">Sign In</div></div>
+  <div class="row" id="signin-form">
+    <div class="column med-3"><input type="text" placeholder="Email"></div>
+    <div class="column med-3"><input type="text" placeholder="Passphrase"></div>
+    <div class="column med-3"><div class="button">Sign In</div></div>
   </div>
 
   <!-- User section -->
-	<div class="row center">
+	<div class="row center"id="user">
     <div class="circle center">user image</div>
     <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
   </div>
 
   <!-- Business section -->
-	<div class="row center">
+	<div class="row center" id="business">
     <div class="circle center">business image</div>
     <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
   </div>

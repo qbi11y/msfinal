@@ -1,3 +1,5 @@
+$button-active: #4CBAFF;
+
 * {
   box-sizing: border-box; }
 
@@ -17,14 +19,16 @@ input {
   padding: 0 1em; }
 
 .med-3 {
-  width: 100%; }
+  width: 100%;
+}
 
 #signin-form {
-  margin-top: 5%; }
+  margin-top: 5%;
+}
 
 /* --- CUSTOM ELEMENTS ---*/
 .button {
-  background-color: #4cbaff;
+  background-color: $button-active;
   color: #fff;
   margin: 1em 0;
   padding: .5em 1.5em;
@@ -45,10 +49,13 @@ input {
   text-align: center;
   margin: 0 auto; }
 
-@media screen and (min-width: 500px) {
+
+@media screen AND (min-width: 500px) {
+
   .column {
     float: left;
-    padding: 10px; }
+    padding: 10px;
+  }
 
   .row:after {
     visibility: hidden;
@@ -56,28 +63,39 @@ input {
     font-size: 0;
     content: " ";
     clear: both;
-    height: 0; }
+    height: 0; 
+  }
 
   .row .column:last-child {
-    margin: 0; }
+    margin: 0;
+  }
 
   .med-3 {
-    width: 33.3333%; }
+  width: 33.3333%;
+  }
 
   #signin-form {
-    margin-top: 20%; }
+  margin-top: 20%;
+}
 
   .button {
-    width: 100px; }
+    width: 100px;
+  }
 
   .circle {
-    float: left;
-    margin-right: 100px; }
+    float: left; 
+    margin-right: 100px;
+  }
 
   p {
     text-align: left;
-    width: 600px; }
+    width: 600px;
+  }
 
   .center {
-    text-align: center; } }
+    text-align: center;
+  }
+}
+
+
 /*# sourceMappingURL=main.css.map */
