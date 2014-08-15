@@ -5,7 +5,50 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-  <div class="row">
+  <div id="banner">
+    <div id="header">Logo</div>
+    <div id="signin-form">
+      <div><input type="text" placeholder="email" /></div>
+      <div><input type="text" placeholder="passphrase" /></div>
+      <div class="button">Sign In</div>
+    </div>
+  </div>
+
+  <section id="user">
+    <div class="center"><p class="circle">circle image</p></div>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+  </section>
+
+  <section id="business">
+    <div class="center"><p class="circle">circle image</p></div>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+  </section>
+
+  <footer>
+    Footer info
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--- <div class="row">
     Logo
   </div>
   <!-- Sign in form -->
@@ -16,13 +59,13 @@
   </div>
 
   <!-- User section -->
-	<div class="row center"id="user">
+	<div class="row center user"id="user">
     <div class="circle center">user image</div>
     <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
   </div>
 
   <!-- Business section -->
-	<div class="row center" id="business">
+	<div class="row center user" id="business">
     <div class="circle center">business image</div>
     <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
   </div>
@@ -32,6 +75,6 @@
     <div>column 1</div>
     <div>column 2</div>
     <div>column 3</div>
-  </div>
+  </div> --->
 </body>
 </html>
