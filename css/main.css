@@ -27,34 +27,65 @@
 
 html, body {
   width: 100%;
+  height: 100vh;
   margin: 0; }
 
 #banner {
-  height: 350px;
+  height: 100%;
   background: gray;
-  padding: 2em; }
+  background: url("../images/party.jpg");
+  background-size: cover;
+  padding: 10px 20px; }
 
 #header {
   margin-bottom: 4em; }
+
+#signin-form {
+  position: absolute;
+  width: 280px; }
+
+#slogan {
+  position: absolute;
+  top: 10%;
+  color: rgba(255, 255, 255, 0.65);
+  font-family: 'Oleo Script';
+  font-size: 1.2em; }
 
 section {
   height: 500px;
   padding: 2em; }
 
+.hidden {
+  display: none; }
+
 input {
   width: 100%;
-  height: 4em;
-  margin: 1em 0; }
+  height: 40px;
+  margin: 1em 0;
+  background-color: rgba(46, 46, 46, 0.8);
+  border: 1px solid rgba(219, 219, 219, 0.5);
+  color: white;
+  font-family: 'Raleway';
+  font-weight: 100; }
 
 .button {
-  background-color: #4cbaff;
   color: #fff;
-  margin: 1em 0;
-  padding: .5em 1.5em;
   text-decoration: none;
-  width: 100%;
   text-align: center;
-  border-radius: 6px; }
+  padding: 10px 20px;
+  font-family: 'Raleway', sans-serif; }
+
+.button:hover {
+  cursor: pointer; }
+
+.signup {
+  background-color: rgba(227, 92, 20, 0.42);
+  border: 1px solid white; }
+
+.signin {
+  background: #76c7c6;
+  border-radius: 6px;
+  font-weight: 300; }
 
 #user {
   background: #e35c14; }
@@ -74,24 +105,35 @@ input {
   margin: 0 auto;
   text-align: center; }
 
+.logo {
+  font-family: 'Lobster', cursive;
+  font-size: 1.8em;
+  color: rgba(118, 199, 198, 0.43); }
+
+::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.25);
+  font-family: 'Raleway';
+  font-weight: 100; }
+
 @media screen and (min-width: 321px) {
   #banner {
-    height: 850px;
-    background: url("../images/salmon.jpg");
-    background-position: -400px 0px;
+    height: 1024px;
+    background: url("../images/party.jpg");
+    background-position: -700px 0px;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 3em; }
+    padding: 1em 5em; }
 
   #header {
     margin-bottom: 8em; }
 
-  #signin-form {
-    background-color: rgba(219, 219, 219, 0.65);
-    width: 100%;
-    padding: 60px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px #666666; }
+  .logo {
+    font-size: 3.5em;
+    color: rgba(118, 199, 198, 0.8); }
+
+  #slogan {
+    top: 9%;
+    font-size: 2em; }
 
   #signin-form:after {
     content: " ";
@@ -99,9 +141,12 @@ input {
     visibility: visible;
     display: block; }
 
-  #signin-form div {
-    width: 500px;
-    margin: 0 auto; }
+  #signin-form {
+    width: 600px;
+    top: 40%; }
+    #signin-form div {
+      width: 500px;
+      margin: 0 auto; }
 
   .section-content {
     width: 100%;
@@ -126,12 +171,9 @@ input {
     margin-left: 50px;
     padding-top: 90px; }
 
-  .button {
-    width: 115px; }
-
   input {
     background-color: rgba(46, 46, 46, 0.65);
-    border: 1px solid rgba(219, 219, 219, 0.75);
+    border: 1px solid rgba(219, 219, 219, 0.5);
     font-size: 1.0em;
     padding: 20px; }
 
@@ -140,22 +182,47 @@ input {
 @media screen and (min-width: 1024px) {
   #banner {
     height: 100vh;
-    background: url("../images/salmon.jpg");
+    background: url("../images/party.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 3em; }
+    padding: 0; }
+
+  #header {
+    background-color: rgba(46, 46, 46, 0.78);
+    height: 75px;
+    padding: 20px 30px; }
 
   #signin-form {
     background: transparent;
-    box-shadow: 0 0 0 #666666; }
+    box-shadow: 0 0 0 #666666;
+    width: 100%;
+    top: 30%; }
+    #signin-formdiv {
+      width: 500px;
+      margin-right: 2em; }
+      #signin-formdiv.button {
+        width: 200px;
+        padding: 40px; }
 
-  #signin-form div {
-    float: left;
-    width: 500px;
-    margin-right: 2em; }
+  #slogan {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 5em;
+    top: 60%;
+    color: rgba(46, 46, 46, 0.65); }
 
-  #signin-form div.button {
-    width: 200px;
-    height: 100px;
-    padding: 40px; } }
+  .signin {
+    background: transparent;
+    border-radius: 0;
+    font-weight: 300; }
+
+  .left {
+    float: left; }
+
+  .right {
+    float: right; }
+
+  .logo {
+    font-size: 2em; } }
 /*# sourceMappingURL=main.css.map */

@@ -3,14 +3,30 @@
 	<title>Makersquare Final</title>
 	<meta name="viewport" content="width=device-width, user-scalable=yes" scale="1.0">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Poiret+One|Oleo+Script|Lobster|Raleway:400,100,300,500,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <div id="banner">
-    <div id="header">Logo</div>
+    <div id="header">
+      <div class="left logo">laarq</div>
+      <div class="right hidden" id="access">
+        <div class="left button signup">Sign Up</div>
+        <div class="left button signin">Sign In</div>
+      </div>
+    </div>
     <div id="signin-form">
-      <div><input type="text" placeholder="email" /></div>
-      <div><input type="text" placeholder="passphrase" /></div>
-      <div class="button">Sign In</div>
+      <div><input type="text" id="email" placeholder="email" /></div>
+      <div><input type="password" id="passphrase" placeholder="passphrase" /></div>
+      <div><input type="password" id="confirm-passphrase" class="hidden" placeholder="confirm passphrase" /></div>
+      <div><input type="text" id="fname" class="hidden" placeholder="fname" /></div>
+      <div><input type="text" id="lname" class="hidden" placeholder="lname" /></div>
+      <div><input type="text" id="business-name" class="hidden" placeholder="business-name" /></div>
+      <div class="button signin">Sign In</div>
+      <div class="button signup hidden">Sign Up</div>
+    </div>
+
+    <div id="slogan">
+      discover your next adventure
     </div>
   </div>
 
@@ -35,54 +51,7 @@
   <footer>
     Footer info
   </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!--- <div class="row">
-    Logo
-  </div>
-  <!-- Sign in form -->
-  <div class="row" id="signin-form">
-    <div class="column med-3"><input type="text" placeholder="Email"></div>
-    <div class="column med-3"><input type="text" placeholder="Passphrase"></div>
-    <div class="column med-3"><div class="button">Sign In</div></div>
-  </div>
-
-  <!-- User section -->
-	<div class="row center user"id="user">
-    <div class="circle center">user image</div>
-    <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
-  </div>
-
-  <!-- Business section -->
-	<div class="row center user" id="business">
-    <div class="circle center">business image</div>
-    <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
-  </div>
-
-  <!-- Footer -->
-	<div class="row">
-    <div>column 1</div>
-    <div>column 2</div>
-    <div>column 3</div>
-  </div> --->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 </html>
