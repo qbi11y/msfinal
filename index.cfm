@@ -15,13 +15,21 @@
   </div>
 
   <section id="user">
-    <div class="center"><p class="circle">circle image</p></div>
-    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+    <div class="section-content">
+      <div class="center"><p class="icon-uniE600" /></div>
+      <div class="intro-text"><h1>Signin &amp; Swipe</h1><p>Hungry? Thirsty? Bored? It's simple! Sign in and start swiping to explore your immediate area!</p></div>
+    </div>
   </section>
 
   <section id="business">
-    <div class="center"><p class="circle">circle image</p></div>
-    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+    <div class="section-content">
+      <div class="center"><p class="icon-uniE601"></p></div>
+      <div class="intro-text">
+        <h1>Be Seen</h1>
+        <p>People are all around your business, do they even know you exist? Using Laarq GPS people are able to visually explore their surroundings.</p>
+        <p>Create an account and add high quality photos of your establishment and turn these folks into paying customers!</p>
+      </div>
+    </div>
   </section>
 
   <footer>
