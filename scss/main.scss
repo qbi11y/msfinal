@@ -44,6 +44,10 @@ html, body {
   margin: 0; 
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 //--- Layout
 #banner {
   height: 100%;
@@ -105,8 +109,13 @@ input {
 }
 
 .signup {
-  background-color: $btn-orange;
+  background-color: rgba( 227, 92, 20, .4);
+  -webkit-transition: background .25s ease-out;
   border: 1px solid white;
+}
+
+.signup:hover {
+  background-color: rgba( 227, 92, 20, .75) 
 }
 
 .signin {
@@ -259,16 +268,20 @@ input {
     top: 30%;
 
     
-    &div {
-      //float: left;
-      width: 500px;
-      margin-right: 2em;
+    // & div {
+    //   //float: left;
+    //   width: 500px;
+    //   margin-right: 2em;
 
-      &.button {
-        width: 200px;
-        padding: 40px; 
-      }
-    }
+    //   &.button {
+    //     width: 200px;
+    //     padding: 40px; 
+    //   }
+    // }
+
+    // & .button {
+    //   float: left;
+    // }
   }
 
   #slogan {

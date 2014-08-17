@@ -18,11 +18,12 @@
       <div><input type="text" id="email" placeholder="email" /></div>
       <div><input type="password" id="passphrase" placeholder="passphrase" /></div>
       <div><input type="password" id="confirm-passphrase" class="hidden" placeholder="confirm passphrase" /></div>
-      <div><input type="text" id="fname" class="hidden" placeholder="fname" /></div>
-      <div><input type="text" id="lname" class="hidden" placeholder="lname" /></div>
+      <div><input type="text" id="fname" class="hidden" placeholder="first name" /></div>
+      <div><input type="text" id="lname" class="hidden" placeholder="last name" /></div>
       <div><input type="text" id="business-name" class="hidden" placeholder="business-name" /></div>
       <div class="button signin">Sign In</div>
       <div class="button signup hidden">Sign Up</div>
+      <div class="button cancel hidden">Cancel</div>
     </div>
 
     <div id="slogan">

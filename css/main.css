@@ -30,6 +30,9 @@ html, body {
   height: 100vh;
   margin: 0; }
 
+.no-scroll {
+  overflow: hidden; }
+
 #banner {
   height: 100%;
   background: gray;
@@ -79,8 +82,12 @@ input {
   cursor: pointer; }
 
 .signup {
-  background-color: rgba(227, 92, 20, 0.42);
+  background-color: rgba(227, 92, 20, 0.4);
+  -webkit-transition: background .25s ease-out;
   border: 1px solid white; }
+
+.signup:hover {
+  background-color: rgba(227, 92, 20, 0.75); }
 
 .signin {
   background: #76c7c6;
@@ -197,12 +204,6 @@ input {
     box-shadow: 0 0 0 #666666;
     width: 100%;
     top: 30%; }
-    #signin-formdiv {
-      width: 500px;
-      margin-right: 2em; }
-      #signin-formdiv.button {
-        width: 200px;
-        padding: 40px; }
 
   #slogan {
     width: 100%;
