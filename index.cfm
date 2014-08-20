@@ -33,14 +33,14 @@
 
   <section id="user">
     <div class="section-content">
-      <div class="center"><p class="icon-uniE600" /></div>
+      <div class="center"><div class="circle"><p class="icon-uniE600" /></div></div>
       <div class="intro-text"><h1>Signin &amp; Swipe</h1><p>Hungry? Thirsty? Bored? It's simple! Sign in and start swiping to explore your immediate area!</p></div>
     </div>
   </section>
 
   <section id="business">
     <div class="section-content">
-      <div class="center"><p class="icon-uniE601"></p></div>
+      <div class="center"><div class="circle"><p class="icon-uniE601"></p></div></div>
       <div class="intro-text">
         <h1>Be Seen</h1>
         <p>People are all around your business, do they even know you exist? Using Laarq GPS people are able to visually explore their surroundings.</p>

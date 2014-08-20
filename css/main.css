@@ -28,7 +28,8 @@
 html, body {
   width: 100%;
   height: 100vh;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Raleway'; }
 
 .no-scroll {
   overflow: hidden; }
@@ -95,22 +96,21 @@ input {
   font-weight: 300; }
 
 #user {
-  background: #e35c14; }
+  background: rgba(227, 92, 20, 0.75); }
 
 #business {
-  background: #76c7c6; }
+  background: rgba(118, 199, 198, 0.75); }
 
 .circle {
-  border: 1px solid gray;
-  border-radius: 100px;
-  width: 200px;
-  height: 200px;
-  padding-top: 95px; }
+  border-radius: 150px;
+  width: 300px;
+  height: 300px; }
 
-.center {
-  width: 200px;
-  margin: 0 auto;
-  text-align: center; }
+#user .circle {
+  border: 12px solid #e35c14; }
+
+#business .circle {
+  border: 12px solid #76c7c6; }
 
 .logo {
   font-family: 'Lobster', cursive;
@@ -159,10 +159,6 @@ input {
     width: 100%;
     margin: 0 auto; }
 
-  .section-content p.circle {
-    position: relative;
-    padding-top: 95px; }
-
   section {
     height: 512px; }
 
@@ -170,12 +166,11 @@ input {
     float: left; }
 
   .circle {
-    margin-right: 50px;
-    font-size: 9em; }
+    background-color: rgba(255, 255, 255, 0.7); }
 
   .intro-text {
     width: 420px;
-    margin-left: 50px;
+    margin-left: 150px;
     padding-top: 90px; }
 
   input {
@@ -185,7 +180,9 @@ input {
     padding: 20px; }
 
   p.icon-uniE600, p.icon-uniE601 {
-    font-size: 10em; } }
+    font-size: 10em;
+    position: relative;
+    top: -90px; } }
 @media screen and (min-width: 1024px) {
   #banner {
     height: 100vh;
@@ -224,6 +221,23 @@ input {
   .right {
     float: right; }
 
+  #user {
+    width: 1680px; }
+
+  .center {
+    width: 800px;
+    margin: 0px auto;
+    background-color: red; }
+
   .logo {
-    font-size: 2em; } }
+    font-size: 2em; }
+
+  .intro-text {
+    width: 900px;
+    vertical-align: top; }
+    .intro-text h1 {
+      font-family: 'Oleo Script';
+      font-size: 8em;
+      padding: 0;
+      margin: -20px; } }
 /*# sourceMappingURL=main.css.map */
